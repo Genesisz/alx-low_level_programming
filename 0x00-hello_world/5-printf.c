@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -7,7 +6,8 @@
  * return: Always 0 (Success)
  */
 int main(void)
-{
-	printf("with proper grammar, but the outcome of art\n");
+ {
+	printf("with proper grammar, but the outcome of art,\n");
 	return (0);
-}
+ }
+
