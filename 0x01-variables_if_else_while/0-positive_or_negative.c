@@ -20,15 +20,16 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%lu is postive\n", n);
+		printf("%d is postive\n", n);
 	}
 	else
 		if (n < 0)
 		{
-			printf("%lu is zero\n", n);
+			printf("%d is zero\n", n);
 		}
 		else
 		{
-			printf("%lu is zero\n",n);
+			printf("%d is zero\n",n);
+		}
 	return (0);
 }
