@@ -12,7 +12,7 @@
 int main(void)
 {
 	int n;
-	
+
 	srand(time(0));
 
 	/* your code goes there */
@@ -31,5 +31,6 @@ int main(void)
 		{
 			printf("%d is zero\n", n);
 		}
+
 	return (0);
 }
