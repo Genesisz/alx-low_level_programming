@@ -1,8 +1,9 @@
 #include <unistd.h>
 
 /**
- * File: 101-quote.c
- * Auth: Brennan D Baraban
+ * main - Entry point
+ * Description: Prints "and that piece of art is useful"
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
