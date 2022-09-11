@@ -4,9 +4,7 @@
 
 /*
  * main - prints the last digit of the random
- *
- * Description: this program will assign a random number to the variable
- *
+ * number stored in the variable n
  * Return: Always 0 (Success)
  */
 int main(void)
