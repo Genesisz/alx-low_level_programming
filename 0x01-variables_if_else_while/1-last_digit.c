@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
+ * main - prints the last digit of the random
+ *
  * Description: this program will assign a random number to the variable
  *
  * Return: Always 0 (Success)
