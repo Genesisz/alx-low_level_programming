@@ -20,7 +20,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%1d is zero\n", n);
+		printf("%1d is positive\n", n);
 	}
 	else
 		if (n < 0)
@@ -29,7 +29,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%1d is positive\n", n);
+			printf("%1d is zero\n", n);
 		}
 	return (0);
 }
