@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * times_table - prints the 9 times table, starting with 0
- * n starting from from 00:00 to 23:59, min loop count mins
- * hours and resets mins
  */
 void times_table(void)
 {
@@ -19,6 +17,12 @@ void times_table(void)
 			}
 
 			if (k < 10 && j != 0)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(k + '0');
+			} else if (k >= 10)
 			{
 				_putchar(',');
 				_putchar(' ');
