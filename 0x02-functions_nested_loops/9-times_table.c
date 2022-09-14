@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * times_table - prints the 9 times table, starting with 0
- * n starting from from 00:00 to 23:59, min loop count mins,
+ * n starting from from 00:00 to 23:59, min loop count mins
  * hours and resets mins
  */
 void times_table(void)
@@ -32,6 +32,6 @@ void times_table(void)
 				_putchar((k % 10) + '0');
 			}
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
