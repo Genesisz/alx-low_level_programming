@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * jack_Bauer - function that prints every minute of the day of J Bauer
  * starting from from 00:00 to 23:59, min loop count mins, while hour loop count hours
@@ -28,4 +27,5 @@ void jack_bauer(void)
 	}
 	hours++;
 	minutes = 0;
+}
 }
