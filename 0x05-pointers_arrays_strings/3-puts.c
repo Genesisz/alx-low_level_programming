@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * _puts - write a function that prints a string
+ *_puts - write a function that prints a string
  * @str: string input
  *
  */
 
 void _puts(char *str)
 {
-	int index;
+	int i = 0;
 
-	for (index = 0; str[index] !='\0'; index++)
+	while(*(str + i) !='\0')
 	{
-		_putchar(str[index]);
+		putchar(*(str + i));
+		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
