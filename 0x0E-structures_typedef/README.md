@@ -1,0 +1,1 @@
+STructure types read me
