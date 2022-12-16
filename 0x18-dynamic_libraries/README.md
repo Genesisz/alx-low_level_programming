@@ -1,1 +1,1 @@
-read me file 0x18
+This is my readme file for dynamic libraries
